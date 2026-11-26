@@ -1,0 +1,38 @@
+{
+  "S01": {
+    "schema": "HAND_MORPHOLOGY_PROFILE_V1",
+    "profile_id": "S01_w0.70_d0.70",
+    "extension": "hand-morphology-extended SMPL-X",
+    "digit_length_scale": {
+      "thumb": 1.0,
+      "index": 1.0,
+      "middle": 1.0,
+      "ring": 1.0,
+      "pinky": 1.0
+    },
+    "finger_width_scale": 0.7,
+    "finger_depth_scale": 0.7,
+    "palm_width_scale": 0.9747079366004294,
+    "palm_length_scale": 1.0,
+    "units": "metres internally; dimensionless absolute native multipliers",
+    "anatomical_calibration": "ENGINEERING_CANDIDATE_NOT_PERSON_SKIN_CALIBRATED"
+  },
+  "S02": {
+    "schema": "HAND_MORPHOLOGY_PROFILE_V1",
+    "profile_id": "S02_w0.70_d0.70",
+    "extension": "hand-morphology-extended SMPL-X",
+    "digit_length_scale": {
+      "thumb": 1.0,
+      "index": 1.0,
+      "middle": 1.0,
+      "ring": 1.0,
+      "pinky": 1.0
+    },
+    "finger_width_scale": 0.7,
+    "finger_depth_scale": 0.7,
+    "palm_width_scale": 1.0120411433063021,
+    "palm_length_scale": 1.0,
+    "units": "metres internally; dimensionless absolute native multipliers",
+    "anatomical_calibration": "ENGINEERING_CANDIDATE_NOT_PERSON_SKIN_CALIBRATED"
+  }
+}

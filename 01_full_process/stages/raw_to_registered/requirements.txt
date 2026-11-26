@@ -1,0 +1,3 @@
+# Versions used for the release comparison with Python 3.12.
+numpy==2.1.2
+pandas==2.3.2

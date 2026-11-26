@@ -1,0 +1,4 @@
+-r stages/raw_to_registered/requirements.txt
+-r stages/registered_to_filtered/requirements.txt
+-r stages/filtered_to_smplx/requirements.txt
+-r stages/filtered_to_mujoco/requirements.txt

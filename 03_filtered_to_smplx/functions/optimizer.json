@@ -1,0 +1,71 @@
+{
+  "P33": {
+    "window_size": 128,
+    "overlap": 16,
+    "weights": {
+      "palm": 3.0,
+      "link_directions": 3.0,
+      "defined_angles": 1.0,
+      "chart_condition": 0.1,
+      "temporal_rotation": 0.02,
+      "baseline_anchor": 0.001
+    },
+    "max_eval": 200,
+    "max_iter": 160
+  },
+  "F02A": {
+    "window_size": 128,
+    "overlap": 16,
+    "weights": {
+      "palm": 3.0,
+      "link_directions": 3.0,
+      "defined_angles": 1.0,
+      "chart_condition": 0.1,
+      "temporal_rotation": 0.02,
+      "baseline_anchor": 0.001,
+      "arm_axes": 3.0,
+      "palm_forearm": 1.0,
+      "relative_angle_bounds": 1000.0,
+      "functional_distance": 1.0,
+      "functional_vector": 1.0,
+      "functional_palm": 1.0,
+      "functional_distal": 1.0,
+      "collision_proxy": 10.0
+    },
+    "max_eval": 200,
+    "max_iter": 160
+  },
+  "F03A": {
+    "window_size": 128,
+    "overlap": 16,
+    "weights": {
+      "palm": 3.0,
+      "link_directions": 3.0,
+      "defined_angles": 1.0,
+      "chart_condition": 0.1,
+      "temporal_rotation": 0.02,
+      "baseline_anchor": 0.001,
+      "arm_axes": 3.0,
+      "palm_forearm": 1.0,
+      "relative_angle_bounds": 1000.0,
+      "functional_distance": 1.0,
+      "functional_vector": 1.0,
+      "functional_palm": 1.0,
+      "functional_distal": 1.0,
+      "collision_proxy": 10.0,
+      "source_aware_edges": 1.0
+    },
+    "max_eval": 200,
+    "max_iter": 160,
+    "continuity": {
+      "tip_increment_residual_allowance_m_per_s": 0.1,
+      "local_link_increment_residual_allowance_deg_per_s": 200.0,
+      "palm_rotation_increment_residual_allowance_deg_per_s": 200.0,
+      "edge_reduction": "max across TIP/link/palm feature normalized squared residual excess; mean(edges)+max(edges)",
+      "initial_continuation_horizon_s": 0.08,
+      "source_steps": "each time own geometric palm frame, ordered increments; source unchanged; actual original dt",
+      "parameter_postfilter": false,
+      "active_edge_scope": "at least one free endpoint; includes last fixed -> first free; excludes both-fixed edges from optimization only; all valid edges evaluated"
+    }
+  }
+}
